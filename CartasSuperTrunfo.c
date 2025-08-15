@@ -4,9 +4,9 @@
 int main (){
 
 
-char cidade[40], cidade2[40];
+char cidade[20], cidade2[20];
 char estado, estado2;
-char codigo[40],codigo2[40];
+char codigo[20],codigo2[20];
 int populacao, populacao2;  
 int turistico, turistico2;
 float area,area2;
@@ -18,11 +18,11 @@ float pib, pib2;
 printf ("Primeira letra do Estado:\n");
 scanf ("%c",&estado);
 printf("Codigo da carta de 1 à 4 (ex A01, A03):\n");
-scanf("%s",&codigo);
+scanf("%s", codigo);
 printf ("Nome da Cidade:\n");
-scanf ("%s",&cidade);
+scanf ("%s", cidade);
 printf ("População da Cidade:\n");
-scanf ("%f",&populacao);
+scanf ("%d",&populacao);
 printf ("Pontos Turisticos:\n");
 scanf ("%d",&turistico);
 printf ("Área em km²:\n");
@@ -30,16 +30,16 @@ scanf ("%f",&area);
 printf ("Pib:\n");
 scanf ("%f",&pib);
 
-//carta 1 do jogo
+//carta 2 do jogo
 
 printf ("Primeira letra do Estado:\n");
 scanf ("%c",&estado2);
 printf("Codigo da carta de 1 à 4 (ex A01, A03):\n");
-scanf("%s",&codigo2);
+scanf("%s", codigo2);
 printf ("Nome da Cidade:\n");
-scanf ("%s",&cidade2);
+scanf ("%s", cidade2);
 printf ("População da Cidade:\n");
-scanf ("%f",&populacao2);
+scanf ("%d",&populacao2);
 printf ("Pontos Turisticos:\n");
 scanf ("%d",&turistico2);
 printf ("Área em km²:\n");
